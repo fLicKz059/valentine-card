@@ -2,13 +2,20 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import '../styles/SuccessPage.css'; // Shared styles
 
+import adventureImg from '../assets/memories/Adventure.jpg';
+import sillyFacesImg from '../assets/memories/Silly Faces.jpg';
+import dateNightImg from '../assets/memories/Date Night.jpg';
+import travellingImg from '../assets/memories/Travelling.jpg';
+import hugsImg from '../assets/memories/Hugs.jpeg';
+import sweetTimesImg from '../assets/memories/Sweet Times.jpeg';
+
 const photos = [
-    { id: 1, src: 'https://placehold.co/600x400/ff99ac/white?text=Our+Adventure', alt: 'Memory 1', size: 'large' },
-    { id: 2, src: 'https://placehold.co/400x600/ffccd5/white?text=Silly+Faces', alt: 'Memory 2', size: 'tall' },
-    { id: 3, src: 'https://placehold.co/400x400/ffb3c1/white?text=Date+Night', alt: 'Memory 3', size: 'square' },
-    { id: 4, src: 'https://placehold.co/600x400/ff8fa3/white?text=Traveling', alt: 'Memory 4', size: 'wide' },
-    { id: 5, src: 'https://placehold.co/400x600/ff4d6d/white?text=Hugs', alt: 'Memory 5', size: 'tall' },
-    { id: 6, src: 'https://placehold.co/400x400/c9184a/white?text=Sweet+Times', alt: 'Memory 6', size: 'square' },
+    { id: 1, src: adventureImg, alt: 'Adventure', size: 'square' },        // 1024x988
+    { id: 2, src: sillyFacesImg, alt: 'Silly Faces', size: 'wide' },       // 1280x960
+    { id: 3, src: hugsImg, alt: 'Hugs', size: 'tall' },                    // 852x1280
+    { id: 4, src: dateNightImg, alt: 'Date Night', size: 'wide' },         // 1280x960
+    { id: 5, src: sweetTimesImg, alt: 'Sweet Times', size: 'tall' },       // 959x1280
+    { id: 6, src: travellingImg, alt: 'Travelling', size: 'wide' },        // 1280x960
 ];
 
 const PhotoCollage = () => {
