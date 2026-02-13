@@ -51,7 +51,7 @@ const SuccessPage = () => {
                 className="message-box"
             >
                 <p>
-                    Munchi Baba... ❤️
+                    Munchi Booo... ❤️
                     <br /><br />
                     Sometimes I find myself wishing I could go back to those good old days, when we were both in here, close to each other, sharing the little moments that meant everything.
                     <br /><br />
@@ -61,7 +61,7 @@ const SuccessPage = () => {
                     For 3 beautiful years, you’ve been my happiness, my comfort, and my safe place.<br />
                     No matter the distance, you will always be my home.
                     <br /><br />
-                    Happy Valentine’s Day, my Munchi 😺
+                    Happy Valentine’s Day, Munchi Baba 😺
                     <br /><br />
                     — Boleee 🐻
                 </p>
