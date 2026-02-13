@@ -51,11 +51,19 @@ const SuccessPage = () => {
                 className="message-box"
             >
                 <p>
-                    Even though we are miles apart, my heart is always with you in the UK.
-                    <br />
-                    I can't wait to hold you in my arms again.
-                    <br />
-                    Happy Valentine's Day, my love! 🌹
+                    Munchi Baba... ❤️
+                    <br /><br />
+                    Sometimes I find myself wishing I could go back to those good old days, when we were both in here, close to each other, sharing the little moments that meant everything.
+                    <br /><br />
+                    I miss you more than words can explain.<br />
+                    I especially miss seeing that cute Mavis face you make with your teeth.
+                    <br /><br />
+                    For 3 beautiful years, you’ve been my happiness, my comfort, and my safe place.<br />
+                    No matter the distance, you will always be my home.
+                    <br /><br />
+                    Happy Valentine’s Day, my Munchi 😺
+                    <br /><br />
+                    — Boleee 🐻
                 </p>
             </motion.div>
 

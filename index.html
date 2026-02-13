@@ -15,20 +15,6 @@
 
 <body>
   <div id="root"></div>
-  <script>
-    window.onerror = function (message, source, lineno, colno, error) {
-      const root = document.getElementById('root');
-      root.innerHTML = `
-        <div style="color: red; padding: 20px; text-align: left;">
-          <h1>Something went wrong</h1>
-          <p><strong>Error:</strong> ${message}</p>
-          <p><strong>Source:</strong> ${source}</p>
-          <p><strong>Line:</strong> ${lineno}</p>
-        </div>
-      `;
-      console.error(error);
-    };
-  </script>
   <script type="module" src="/src/main.jsx"></script>
 </body>
 
